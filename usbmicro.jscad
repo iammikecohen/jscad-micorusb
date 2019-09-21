@@ -24,7 +24,7 @@ function getParameterDefinitions() {
   ];
 }
 
-function main(params) {
+function microUSB(params) {
   util.init(CSG);
   const usbT = cube([6, 12, 1]).fillet(0.4, "z+");
   const usbB = cube([6, 12, 1]).fillet(0.8, "z+");
